@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: 800;
+  src: url('./setup/assets/font/Vazir-Bold.eot');
+  src: url('./setup/assets/font/Vazir-Bold.eot') format('mbedded-opentype'),
+    url('./setup/assets/font/Vazir-Bold.woff') format('woff'),
+    url('./setup/assets/font/Vazir-Bold.ttf') format('truetype');
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: 600;
+  src: url('./setup/assets/font/Vazir-Medium.eot');
+  src: url('./setup/assets/font/Vazir-Medium.eot') format('mbedded-opentype'),
+    url('./setup/assets/font/Vazir-Medium.woff') format('woff'),
+    url('./setup/assets/font/Vazir-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./setup/assets/font/Vazir-Light.eot');
+  src: url('./setup/assets/font/Vazir-Light.eot') format('mbedded-opentype'),
+    url('./setup/assets/font/Vazir-Light.woff') format('woff'),
+    url('./setup/assets/font/Vazir-Light.ttf') format('truetype');
+}
+body {
+  font-family: 'Vazir';
+  direction: ltr;
+}
+a {
+  text-decoration: none;
+  color: #1e1e1e;
 }
