@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     toursList: [],
+    List: [],
     isLoading: false,
     error: false,
 }
@@ -18,11 +20,12 @@ const hasError = (state, action) => {
     state.isLoading = false;
 }
 const removeTourCard = (state, action) => {
-    const item = state.toursList.findIndex((item) => { return item.id === action.payload });
-    // state.toursList.splice(item, 1);
-    state.toursList = state.toursList.filter((tours, index) => {
-        return index !== item
-    })
+    state.List = state.toursList;
+    const item = state.List.findIndex((item) => { return item.id === action.payload });
+    state.List.splice(item, 1);
+    // state.toursList = state.toursList.filter((tours, index) => {
+    //     return index !== item
+    // })
 }
 const ToursDataProject = createSlice({
     name: 'tours',
