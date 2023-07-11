@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tours-list/static/css/main.3085e152.css",
+    "main.js": "/tours-list/static/js/main.00e7e364.js",
+    "static/js/787.a933b575.chunk.js": "/tours-list/static/js/787.a933b575.chunk.js",
+    "static/media/Vazir-Medium.eot": "/tours-list/static/media/Vazir-Medium.c7abd777d3d000ef3072.eot",
+    "static/media/Vazir-Medium.ttf": "/tours-list/static/media/Vazir-Medium.768ad69912e4fc55e9dc.ttf",
+    "static/media/Vazir-Light.eot": "/tours-list/static/media/Vazir-Light.a08630585d4edc4c712f.eot",
+    "static/media/Vazir-Light.ttf": "/tours-list/static/media/Vazir-Light.9a10fdbd210d579e2cdc.ttf",
+    "static/media/Vazir-Bold.eot": "/tours-list/static/media/Vazir-Bold.feec9951fef1b83040c4.eot",
+    "static/media/Vazir-Bold.ttf": "/tours-list/static/media/Vazir-Bold.aa78d4003ca9ce547f9f.ttf",
+    "static/media/Vazir-Medium.woff": "/tours-list/static/media/Vazir-Medium.d08b33477c7bc2743520.woff",
+    "static/media/Vazir-Light.woff": "/tours-list/static/media/Vazir-Light.2d11d5ed66bda82c1274.woff",
+    "static/media/Vazir-Bold.woff": "/tours-list/static/media/Vazir-Bold.838f52d70b1e329a8c11.woff",
+    "index.html": "/tours-list/index.html",
+    "main.3085e152.css.map": "/tours-list/static/css/main.3085e152.css.map",
+    "main.00e7e364.js.map": "/tours-list/static/js/main.00e7e364.js.map",
+    "787.a933b575.chunk.js.map": "/tours-list/static/js/787.a933b575.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3085e152.css",
+    "static/js/main.00e7e364.js"
+  ]
+}
